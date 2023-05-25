@@ -1,0 +1,19 @@
+Struttura di una properties
+
+Properties --> properties.method() --> inserire valore, interrogo e ....
+Autore: libro
+mario:aaaa
+pasquale: bbb
+
+jdbc:mysql//...
+
+
+scriviamo un applicazione che scrive su un file le coppie
+proprietario:targaauto
+
+lo strutturiamo con vari metodi
+-inseriscidati()
+- leggedati() per leggere la targa dal proprietario
+             se il proprietario non c'è --> chiede se inserire (s)
+             se dico s richiamo il metodo inseriscidati
+             se dico n esce
